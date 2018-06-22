@@ -22,7 +22,7 @@
                 { 
                     "type": "git", 
                     "url": "https://github.com/KDE/gcompris.git",
-                    "commit": "263b217f4bb41d7927d8666f5809beb7bfe73f6b"
+                    "commit": "fa18e6b6343f2a9f7c53d77ff73284c7d8d67f0b"
                 } 
             ]
         }
