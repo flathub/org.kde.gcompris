@@ -7,9 +7,10 @@
     "command": "gcompris-qt",
     "finish-args": [
         "--socket=pulseaudio", 
-        "--share=ipc", 
+        "--share=ipc",
         "--socket=x11", 
         "--socket=wayland", 
+        "--share=network",
         "--device=dri" 
     ],
     "modules": [
