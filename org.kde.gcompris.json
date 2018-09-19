@@ -18,12 +18,20 @@
             "name": "gcompris",
             "buildsystem": "cmake",
             "builddir": true,
-            "sources": [ 
+            "config-opts": [
+                "-DQML_BOX2D_MODULE=submodule"
+            ],
+            "sources": [
                 { 
-                    "type": "git", 
-                    "url": "https://github.com/KDE/gcompris.git",
-                    "commit": "fa18e6b6343f2a9f7c53d77ff73284c7d8d67f0b"
-                } 
+                    "type": "archive",
+                    "url": "http://gcompris.net/download/qt/src/gcompris-qt-0.91.tar.xz",
+                    "sha256": "6fcf6451f5214ccacf6df51b4caa53ab996c2dc597dda0e8b7301d9c384a0026"
+                },
+                {
+                    "type": "git",
+                    "url": "https://github.com/qml-box2d/qml-box2d.git",
+                    "dest": "external/qml-box2d/"
+                }
             ]
         }
     ]
