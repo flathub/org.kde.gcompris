@@ -25,8 +25,8 @@
             "sources": [
                 { 
                     "type": "archive",
-                    "url": "http://gcompris.net/download/qt/src/gcompris-qt-0.91.tar.xz",
-                    "sha256": "6fcf6451f5214ccacf6df51b4caa53ab996c2dc597dda0e8b7301d9c384a0026"
+                    "url": "https://gcompris.net/download/qt/src/gcompris-qt-0.95.tar.xz",
+                    "sha256": "34d3ece24e87755a68c70129e502bf57874b21311aca54ba67619e25ba9451a9"
                 },
                 {
                     "type": "git",
