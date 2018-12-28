@@ -1,7 +1,7 @@
 {
     "id": "org.kde.gcompris",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.9",
+    "runtime-version": "5.11",
     "sdk": "org.kde.Sdk",
     "rename-icon": "gcompris-qt",
     "command": "gcompris-qt",
@@ -17,7 +17,7 @@
     "modules": [
         {
             "name": "gcompris",
-            "buildsystem": "cmake",
+            "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
                 "-DQML_BOX2D_MODULE=submodule"
