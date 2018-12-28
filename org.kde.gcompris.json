@@ -17,7 +17,7 @@
     "modules": [
         {
             "name": "gcompris",
-            "buildsystem": "cmake-ninja",
+            "buildsystem": "cmake",
             "builddir": true,
             "config-opts": [
                 "-DQML_BOX2D_MODULE=submodule"
