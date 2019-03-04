@@ -26,5 +26,5 @@ modules:
         url: https://github.com/qml-box2d/qml-box2d.git
         commit: b7212d5640701f93f0cd88fbd3a32c619030ae62
       - type: archive
-        url: https://gcompris.net/download/qt/src/gcompris-qt-0.96.tar.xz
+        url: http://gcompris.net/download/qt/src/gcompris-qt-0.96.tar.xz
         sha256: a2bc2ce6e2687120d7ff2dee036fd85cfed70a793a9cc385b786d054681c8818
