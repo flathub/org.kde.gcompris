@@ -1,0 +1,44 @@
+{
+  "id": "org.kde.gcompris",
+  "runtime": "org.kde.Platform",
+  "runtime-version": "5.12",
+  "sdk": "org.kde.Sdk",
+  "rename-icon": "gcompris-qt",
+  "command": "gcompris-qt",
+  "finish-args": [
+    "--socket=pulseaudio",
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--share=network",
+    "--device=dri",
+    "--filesystem=xdg-config/kdeglobals:ro"
+  ],
+  "modules": [
+    {
+      "name": "gcompris",
+      "buildsystem": "cmake",
+      "builddir": true,
+      "config-opts": [
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DQML_BOX2D_MODULE=submodule"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "dest": "external/qml-box2d",
+          "url": "https://github.com/qml-box2d/qml-box2d.git",
+          "commit": "b7212d5640701f93f0cd88fbd3a32c619030ae62"
+        },
+        {
+          "type": "archive",
+          "url": "https://gcompris.net/download/qt/src/gcompris-qt-0.96.tar.xz",
+          "sha256": "a2bc2ce6e2687120d7ff2dee036fd85cfed70a793a9cc385b786d054681c8818",
+          "mirror-urls": [
+            "https://github.com/flathub/org.kde.gcompris/releases/download/0.96/gcompris-qt-0.96.tar.xz"
+          ]
+        }
+      ]
+    }
+  ]
+}
