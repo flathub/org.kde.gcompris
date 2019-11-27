@@ -37,6 +37,12 @@
           "mirror-urls": [
             "https://github.com/flathub/org.kde.gcompris/releases/download/0.96/gcompris-qt-0.96.tar.xz"
           ]
+        },
+        {
+          "type": "shell",
+          "commands": [
+            "sed -i '3i <releases><release version=\"0.96\" date=\"2019-03-03\"/></releases>' org.kde.gcompris.appdata.xml"
+          ]
         }
       ]
     }
