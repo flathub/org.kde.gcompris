@@ -39,10 +39,8 @@
           ]
         },
         {
-          "type": "shell",
-          "commands": [
-            "sed -i '3i <releases><release version=\"0.96\" date=\"2019-03-03\"/></releases>' org.kde.gcompris.appdata.xml"
-          ]
+          "type": "file",
+          "path": "org.kde.gcompris.appdata.xml"
         }
       ]
     }
