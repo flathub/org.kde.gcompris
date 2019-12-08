@@ -808,6 +808,6 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
-    <release version="0.96" date="2019-03-03"/>
+    <release version="0.97" date="2019-12-01"/>
   </releases>
 </component>
