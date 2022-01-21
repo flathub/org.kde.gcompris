@@ -32,8 +32,8 @@
         },
         {
           "type": "archive",
-          "url": "https://gcompris.net/download/qt/src/gcompris-qt-2.0.tar.xz",
-          "sha256": "9ab546608f483f25ea95764dd8c1031938c83d49a52f07da028fb35b81e3a8c7"
+          "url": "https://gcompris.net/download/qt/src/gcompris-qt-2.1.tar.xz",
+          "sha256": "963398feec9b5f37f03859a1057078b02e159ff0bc04fd4179450fa5d1ee430a"
         }
       ]
     }
