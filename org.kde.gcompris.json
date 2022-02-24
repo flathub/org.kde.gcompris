@@ -32,8 +32,8 @@
         },
         {
           "type": "archive",
-          "url": "https://gcompris.net/download/qt/src/gcompris-qt-2.1.tar.xz",
-          "sha256": "963398feec9b5f37f03859a1057078b02e159ff0bc04fd4179450fa5d1ee430a"
+          "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-2.2.tar.xz",
+          "sha256": "c0ccb46cdc46a3a7fae46755afc5594bc6754dfc39586a5cda78a34e0b10a30f"
         }
       ]
     }
