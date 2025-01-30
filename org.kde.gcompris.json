@@ -1,7 +1,7 @@
 {
   "id": "org.kde.gcompris",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-23.08",
+  "runtime-version": "6.8",
   "sdk": "org.kde.Sdk",
   "rename-icon": "gcompris-qt",
   "command": "gcompris-qt",
@@ -27,12 +27,12 @@
           "type": "git",
           "dest": "external/qml-box2d",
           "url": "https://github.com/qml-box2d/qml-box2d.git",
-          "commit": "b7212d5640701f93f0cd88fbd3a32c619030ae62"
+          "commit": "3a85439726d1ac4d082308feba45f23859ba71e0"
         },
         {
           "type": "archive",
-          "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-4.2.tar.xz",
-          "sha256": "668726abc949c49e5348b55e8b1e7d7005584208432bb95424979f7f08f2256c"
+          "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-25.0.tar.xz",
+          "sha256": "13797ee65e2bb1aba2765e8893981259ff921a955a0158b95f9d5eb65d43d39c"
         }
       ]
     }
