@@ -31,8 +31,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-25.1.tar.xz",
-                    "sha256": "dda4e486c7ec4d080744a05a6b89dbafe0dfe07041fbf245f08982716375acb5",
+                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-25.1.1.tar.xz",
+                    "sha256": "636de9168bf5fd628faf061845f188f2c385d2da7f92c4b0449139ce6c6da12a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141336,
