@@ -38,10 +38,6 @@
                         "project-id": 141336,
                         "url-template": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/noPrivateModule.patch"
                 }
             ]
         }
