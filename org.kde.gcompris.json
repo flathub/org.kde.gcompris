@@ -15,6 +15,30 @@
     ],
     "modules": [
         {
+            "name": "qt6-graphs",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/qt/qtgraphs.git",
+                    "tag": "v6.10.1",
+                    "commit": "b50b4e3b46940e5aa3cf31babb4ff1c9454ab473",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$",
+                        "//": "make sure version matches kde runtime version of org.kde.Platform",
+                        "versions": {
+                            ">=": "v6.10",
+                            "<": "v6.11"
+                        }
+                    }
+                }
+            ],
+            "post-install": [
+                "install $FLATPAK_DEST/lib/*-linux-gnu/*.so $FLATPAK_DEST/lib/*-linux-gnu/*.so.* $FLATPAK_DEST/lib"
+            ]
+        },
+        {
             "name": "gcompris",
             "buildsystem": "cmake",
             "builddir": true,
@@ -31,17 +55,13 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-25.1.1.tar.xz",
-                    "sha256": "636de9168bf5fd628faf061845f188f2c385d2da7f92c4b0449139ce6c6da12a",
+                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-26.0.tar.xz",
+                    "sha256": "7d3df8be96dd6e883990abe14f9137900030d508d3a30e2b38e39d0eb31ef333",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141336,
                         "url-template": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/noPrivateModule.patch"
                 }
             ]
         }
