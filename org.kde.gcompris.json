@@ -13,6 +13,10 @@
         "--share=network",
         "--device=dri"
     ],
+     "cleanup": [
+        "/include",
+        "/mkspecs"
+    ],
     "modules": [
         {
             "name": "qt6-graphs",
