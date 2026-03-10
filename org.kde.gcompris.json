@@ -13,7 +13,7 @@
         "--share=network",
         "--device=dri"
     ],
-     "cleanup": [
+    "cleanup": [
         "/include",
         "/mkspecs"
     ],
@@ -59,8 +59,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-26.0.tar.xz",
-                    "sha256": "7d3df8be96dd6e883990abe14f9137900030d508d3a30e2b38e39d0eb31ef333",
+                    "url": "https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-26.1.tar.xz",
+                    "sha256": "c389b863b29f012ccc1b3eef740982ff6c7654c13a2e343397ee466124f31339",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 141336,
