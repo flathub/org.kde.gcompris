@@ -25,8 +25,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/qt/qtgraphs.git",
-                    "tag": "v6.10.2",
-                    "commit": "6cd2b17ad3828029520c5b590060bff91ac43ceb",
+                    "tag": "v6.10.3",
+                    "commit": "6904a774600801aa2931413e47659ae70faf3e8e",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$",
