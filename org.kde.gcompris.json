@@ -19,30 +19,6 @@
     ],
     "modules": [
         {
-            "name": "qt6-graphs",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/qt/qtgraphs.git",
-                    "tag": "v6.10.2",
-                    "commit": "6cd2b17ad3828029520c5b590060bff91ac43ceb",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$",
-                        "//": "make sure version matches kde runtime version of org.kde.Platform",
-                        "versions": {
-                            ">=": "v6.10",
-                            "<": "v6.11"
-                        }
-                    }
-                }
-            ],
-            "post-install": [
-                "install $FLATPAK_DEST/lib/*-linux-gnu/*.so $FLATPAK_DEST/lib/*-linux-gnu/*.so.* $FLATPAK_DEST/lib"
-            ]
-        },
-        {
             "name": "gcompris",
             "buildsystem": "cmake",
             "builddir": true,
